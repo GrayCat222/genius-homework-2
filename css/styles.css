@@ -1,0 +1,182 @@
+/* Global */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-primary-light: #ffffff;
+  --color-primary-normal: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-secondary-first: #4a4a4a;
+  --color-secondary-second: #4a4a4a;
+  --color-secondary-third: #747272;
+  --color-secondary-fourth: #011f4a;
+  --color-secondary-fifth: #ffd02b;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 1440px;
+  text-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Header*/
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-flex-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+}
+
+.header-icons {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-link:hover {
+  color: var(--color-primary-normal);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Hero section*/
+.hero-section {
+  background: url(../images/header-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.hero-secondary-header {
+  padding-top: 16px;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.hero-title {
+  max-width: 530px;
+  color: var(--color-primary-normal);
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 114px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.call-button {
+  padding: 16px 32px;
+  border-radius: 32px;
+  border: 2px solid var(--color-primary-normal);
+  background: var(--color-primary-normal);
+  color: var(--color-primary-light);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+.call-button:hover {
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+}
+
+.heto-subbutton-text {
+  color: var(--color-secondary-first);
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  max-width: 240px;
+}
+
+/* Reborn*/
+
+.reborn-flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.reborn-content {
+  flex-basis: 710px;
+}
+.reborn-header {
+  padding-top: 40px;
+  width: 530px;
+  color: var(--color-primary-dark);
+  font-family: Play;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.reborn-header .accent {
+  color: var(--color-primary-normal);
+  text-transform: capitalize;
+}
+
+.reborn-content .paragraph {
+  color: var(--color-primary-dark);
+  padding-top: 40px;
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.reborn-accent {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.reborn-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+.reborn-image {
+  border-radius: 50%;
+}
